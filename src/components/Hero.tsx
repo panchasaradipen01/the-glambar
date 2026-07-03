@@ -93,7 +93,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
               transition={{ duration: 0.4, delay: 0.05, ease: 'easeOut' }}
               className="text-5xl sm:text-6xl lg:text-[76px] leading-[0.95] font-serif tracking-tight text-neutral-900 dark:text-white mb-6"
             >
-              Premium Nails <br />
+              Nails <br />
               <span className="italic font-light text-luxury-gradient">&amp; {config.business.brandName}</span>
             </motion.h1>
 
