@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Frosted Glass Custom Palette - Premium Nude Pink & Champagne Gold (Main Pick combination) */
+  --color-gold-50: #fdf8ee;   /* Cream gold (Highlight sections) */
+  --color-gold-100: #fdf8ee;
+  --color-gold-200: #f8e8b0;  /* Soft champagne (Accent fills) */
+  --color-gold-300: #e8c3b5;  /* Warm rose nude (Borders & dividers) */
+  --color-gold-400: #c9907e;  /* Dusty mauve (Subheadings & icons) */
+  --color-gold-500: #d4a853;  /* Champagne gold (Buttons & CTA) */
+  --color-gold-600: #b8892a;  /* Rich gold (Hover & active states) */
+  --color-gold-700: #8b4a3c;  /* Deep rosewood (Headings & logo) */
+  --color-gold-800: #8b4a3c;
+  --color-gold-900: #6b4f10;  /* Antique gold (Dark accents) */
+
+  --color-blush-50: #fdf5f0;  /* Ivory cream (Background base) */
+  --color-blush-100: #f5ddd4; /* Nude blush (Card & section fills) */
+  --color-blush-200: #f5ddd4;
+  --color-blush-300: #e8c3b5;
+  --color-blush-400: #c9907e;
+  --color-blush-500: #d4a853;
+  --color-blush-600: #b8892a;
+
+  --color-nude-50: #fdf5f0;   /* Ivory cream */
+  --color-nude-100: #fdf5f0;
+  --color-nude-200: #f5ddd4;  /* Nude blush */
+  --color-nude-300: #e8c3b5;  /* Warm rose nude */
+  --color-nude-400: #c9907e;  /* Dusty mauve */
+  --color-nude-500: #d4a853;
+  --color-nude-600: #8b4a3c;  /* Deep rosewood */
+
+  /* Espresso & Nude Neutrals */
+  --color-neutral-50: #fdf5f0;
+  --color-neutral-100: #fdf8ee;
+  --color-neutral-200: #f8e8b0;
+  --color-neutral-300: #e8c3b5;
+  --color-neutral-400: #c9907e;
+  --color-neutral-500: #8b4a3c;
+  --color-neutral-600: #6b4f10;
+  --color-neutral-700: #3E2B24;
+  --color-neutral-800: #261712;
+  --color-neutral-900: #140A07;
+  --color-neutral-950: #0a0503;
+}
+
+@layer utilities {
+  /* Ultra premium glassmorphism styles */
+  .glass-card {
+    background: rgba(253, 245, 240, 0.45); /* Ivory cream base */
+    backdrop-filter: blur(28px) saturate(130%);
+    -webkit-backdrop-filter: blur(28px) saturate(130%);
+    border: 1px solid rgba(232, 195, 181, 0.55); /* Warm rose nude border */
+    box-shadow: 0 10px 40px -10px rgba(212, 168, 83, 0.1); /* Champagne gold shadow */
+  }
+
+  .dark .glass-card {
+    background: rgba(28, 20, 18, 0.55);
+    backdrop-filter: blur(28px) saturate(130%);
+    -webkit-backdrop-filter: blur(28px) saturate(130%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.4);
+  }
+
+  .glass-navbar {
+    background: rgba(253, 245, 240, 0.35); /* Ivory cream base */
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+  }
+
+  .dark .glass-navbar {
+    background: rgba(18, 12, 10, 0.55);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+  }
+
+  .glass-pill {
+    background: rgba(253, 245, 240, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(232, 195, 181, 0.6);
+  }
+
+  .dark .glass-pill {
+    background: rgba(40, 28, 24, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  /* Text gradient luxury accent */
+  .text-luxury-gradient {
+    background: linear-gradient(135deg, #8b4a3c 0%, #d4a853 50%, #c9907e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .dark .text-luxury-gradient {
+    background: linear-gradient(135deg, #fdf5f0 0%, #d4a853 50%, #f8e8b0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+html, body {
+  scroll-behavior: smooth;
+  background-attachment: fixed;
+  background: #fdf5f0; /* Ivory cream base background */
+  transition: background-color 0.5s ease;
+}
+
+.dark, .dark body {
+  background: #140A07;
+}
+
+/* Base Light/Dark beautiful Frosted backgrounds - Soft Champagne blending into Ivory Cream and Nude Blush */
+.min-h-screen {
+  background: radial-gradient(circle at 80% 20%, #fdf8ee 0%, #fdf5f0 50%, #f5ddd4 100%) !important;
+}
+
+.dark .min-h-screen {
+  background: radial-gradient(circle at 80% 20%, #301D17 0%, #150E0C 50%, #0A0A0A 100%) !important;
+}
+
+/* Elegant scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF3EC;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0d0a09;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-300);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-500);
+}
+
+/* Floating particle animation helper */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); opacity: 0.2; }
+  50% { transform: translateY(-20px) rotate(180deg); opacity: 0.6; }
+  100% { transform: translateY(0px) rotate(360deg); opacity: 0.2; }
+}
+
+.animate-float-slow {
+  animation: float 12s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float 5s ease-in-out infinite;
+}
+
+.dark .hands-line-art {
+  filter: invert(1) hue-rotate(180deg) saturate(1.3) !important;
+}

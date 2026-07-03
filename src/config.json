@@ -1,0 +1,199 @@
+{
+  "business": {
+    "brandName": "The Glambar",
+    "city": "Rajkot",
+    "whatsappNumber": "919327557465",
+    "phoneNumber": "+91 93275 57465",
+    "email": "theglambar1711@gmail.com",
+    "address": "B-20/146, Anand nagar, kothariya main road, rajkot",
+    "instagramHandle": "@the_glambar.__",
+    "instagramUrl": "https://www.instagram.com/the_glambar.__?igsh=MWVicXljbjlxOHF3Ng==",
+    "openingHours": "10:00 AM - 08:00 PM (Mon - Sun)",
+    "slogan": "Beautiful Nails. Premium Products. Exceptional Service.",
+    "tagline": "Curated professional nail services, custom hand-painted nail art, and premium nail products in Rajkot. Beautiful nails, premium products, exceptional service.",
+    "aboutQuote": "Beauty begins the moment you decide to be yourself.",
+    "aboutQuoteAuthor": "The Glambar Philosophy",
+    "aboutText1": "Welcome to The Glambar Rajkot, where exquisite nail art, premium gel extensions, and professional nail products come together. Founded on the principle that your hands are your primary statement, our studio is dedicated to delivering flawless designs and top-grade supplies that define your style.",
+    "aboutText2": "Whether you are looking for custom sculpted extensions, luxury hand-painted nail art, or premium products from trusted brands like Shills, Emigel, Venalisa, and Recolte, we provide an unparalleled, sterilized, and sensory luxury experience."
+  },
+  "stats": [
+    { "value": "4.9★", "label": "Top-Rated Nail Studio" },
+    { "value": "4+", "label": "Premium Product Brands" },
+    { "value": "1,500+", "label": "Nail Designs Sculpted" },
+    { "value": "100%", "label": "Hygienic & Safe Care" }
+  ],
+  "reviews": {
+    "verifiedCount": "180+",
+    "sanitization": "100%",
+    "brandStandard": "Shills & Venalisa"
+  },
+  "services": [
+    {
+      "id": "nail-extensions",
+      "title": "Signature Gel & Acrylic Extensions",
+      "category": "Nails",
+      "price": "₹600+",
+      "duration": "90 mins",
+      "description": "Transform your fingertips with premium extensions tailored to your desired length and shape. We specialize in custom sculpted almond, stiletto, coffin, and classic square shapes using premium, toxic-free gels and acrylic builds.",
+      "image": "/images/36407.jpg",
+      "features": ["Custom Tip Shaping & Sizing", "High-Gloss Gel Finish or Matte Finish", "Nail Bed Prep", "Ultra-Durable & Scratch-Resistant", "Complimentary Cuticle Massage"]
+    },
+    {
+      "id": "nail-art",
+      "title": "Luxury Hand-Painted Nail Art",
+      "category": "Nails",
+      "price": "₹650+",
+      "duration": "60 mins",
+      "description": "Turn your nails into a mesmerizing canvas. Our master artists hand-paint intricate custom details, including elegant chrome metallic finishes, encapsulated glitter, fine line work, and dazzling 3D crystal embellishments.",
+      "image": "/images/36541.jpg",
+      "features": ["Intricate Fine-Line Artistry", "Chrome, Foil, & Glitter Encapsulation", "Swarovski Crystal Accents", "Custom Color Swatches", "Top-Grade Non-Toxic Gel Pigments"]
+    },
+    {
+      "id": "gel-polish",
+      "title": "Premium Gel Polish Overlay",
+      "category": "Nails",
+      "price": "₹400+",
+      "duration": "45 mins",
+      "description": "Flawless, high-shine gel polish overlay that lasts for weeks without chipping. Perfect for low-maintenance daily wear, office, and students.",
+      "image": "/images/36537.jpg",
+      "features": ["Highly Pigmented Colors", "Up to 3 Weeks of Chip-Free Wear", "UV/LED Quick Curing", "Nail Prep & Cuticle Work", "Safe Gel Polish Removal"]
+    },
+    {
+      "id": "nail-products",
+      "title": "Premium Nail Products & Tools",
+      "category": "Products",
+      "price": "Retail Pricing",
+      "duration": "Catalog Order",
+      "description": "Premium, salon-grade nail products from global brands like Shills, Emigel, Venalisa, and Recolte for nail professionals and enthusiasts.",
+      "image": "/images/36505.jpg",
+      "features": ["Top Brands: Shills, Emigel, Venalisa, Recolte", "Professional Nail Brushes & Files", "Nourishing Cuticle Hydration Oils", "Durable Nail Tips & Forms", "Long-Lasting Base & Top Coats"]
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Chic Chrome Almond Extensions",
+      "category": "nails",
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600",
+      "description": "Metallic chrome-kissed almond-shaped extensions paired with delicate pearl decals and crystal embellishments."
+    },
+    {
+      "id": "gal-2",
+      "title": "Dazzling Cat Eye & Chrome Nails",
+      "category": "nails",
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600",
+      "description": "Spellbinding magnetic cat-eye overlays combined with chrome highlights for a premium futuristic shimmer."
+    },
+    {
+      "id": "gal-3",
+      "title": "Opal Glaze & Encapsulated Glitter",
+      "category": "nails",
+      "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=600",
+      "description": "Translucent opal gel overlay embedded with luxury glitters and gold flakes for an exquisite 3D depth effect."
+    },
+    {
+      "id": "gal-4",
+      "title": "Professional Products & Gel Polishes",
+      "category": "products",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=600",
+      "description": "Premium, salon-grade nail products from Shills, Emigel, Venalisa, and Recolte for nail professionals and enthusiasts."
+    },
+    {
+      "id": "gal-5",
+      "title": "The Glambar Reusable Couture Press-Ons",
+      "category": "products",
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600",
+      "description": "Individually hand-painted premium reusable luxury press-on nails from our exclusive collection for nail lovers."
+    },
+    {
+      "id": "gal-6",
+      "title": "Elegant Matte & Gold Foil Stiletto",
+      "category": "nails",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=600",
+      "description": "Velvety matte black stiletto extensions highlighted with organic brushed-gold foil detailing and micro-gems."
+    },
+    {
+      "id": "gal-7",
+      "title": "Before & After: Weak Nail Restoration",
+      "category": "before-after",
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600",
+      "beforeImage": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600",
+      "afterImage": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600",
+      "description": "Complete nail reinforcing treatment. Replaced peeling, brittle natural nails with reinforced overlays and flawless gel extensions."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t-1",
+      "name": "Pooja Vaghela",
+      "role": "Bride from Rajkot",
+      "rating": 5,
+      "text": "Choosing The Glambar for my bridal extensions and custom nail art was a dream come true! The nail artist spent hours crafting custom 3D crystals and chrome details. The extensions were absolutely gorgeous, felt so lightweight, and lasted for my entire honeymoon!",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+      "date": "June 2026"
+    },
+    {
+      "id": "t-2",
+      "name": "Bhumika Trivedi",
+      "role": "Regular Nail Art Client",
+      "rating": 5,
+      "text": "Rajkot finally has a true premium nail artist! Their hand-painted custom gel art is on a completely different level. The staff is so creative, hygienic, and precise. I literally show them Pinterest ideas and they build them even better!",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+      "date": "May 2026"
+    },
+    {
+      "id": "t-3",
+      "name": "Dhara Jadeja",
+      "role": "Nail Lover & Product Customer",
+      "rating": 5,
+      "text": "I bought their organic cuticle oil and hand-painted luxury press-on nail kits. The quality of the press-ons is outstanding – sturdy, beautiful, and easy to apply! It is perfect for matching different outfits instantly. Highly recommend their premium product line!",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+      "date": "April 2026"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long do your premium gel extensions last?",
+      "answer": "Our professional gel and acrylic extensions are constructed using top-grade non-toxic materials and typically last between 3 to 5 weeks. We highly recommend scheduling an infill appointment every 3 weeks to maintain structural balance and hygiene."
+    },
+    {
+      "question": "What premium nail product brands do you offer?",
+      "answer": "We offer premium, professional-grade nail products and tools from top global brands like Shills, Emigel, Venalisa, and Recolte. All products are tested for safety, durability, and high pigmentation."
+    },
+    {
+      "question": "What premium nail product lines do you offer to retail customers?",
+      "answer": "We provide an exclusive array of retail products for nail enthusiasts in Rajkot! This includes professional-grade nail brushes, nourishing botanical cuticle elixirs, top-tier durable buffers, and custom reusable hand-painted press-on nails tailored to your sizing."
+    },
+    {
+      "question": "How do I care for my extensions to make them last?",
+      "answer": "Avoid using your nails as tools to open cans or boxes. Apply our cuticle elixir oil daily to maintain nail flexibility, wear gloves when working with harsh cleaning chemicals, and never peel or snap the extensions off at home – always visit the studio for a safe removal."
+    },
+    {
+      "question": "How do I place an order for nail products?",
+      "answer": "Since we run on custom consultation, you can select the products you'd like to buy from our catalog and contact us directly on WhatsApp at +91 93275 57465. We accept UPI payments and ship orders pan-India!"
+    }
+  ],
+  "instagramFeed": [
+    {
+      "id": "ig-1",
+      "image": "/images/36520.jpg",
+      "likes": "1,420",
+      "comments": "42",
+      "caption": "Classic custom wedding-themed extensions done today for our gorgeous bride! Hand-painted details, bride caricature, and gold foils. #RajkotNails #NailExtensions"
+    },
+    {
+      "id": "ig-2",
+      "image": "/images/36544.jpg",
+      "likes": "1,520",
+      "comments": "34",
+      "caption": "Elevate your daily look with lavender french tips and delicate hand-painted lavender flowers. #NailSupplies #ShillsIndia"
+    },
+    {
+      "id": "ig-3",
+      "image": "/images/36542.jpg",
+      "likes": "640",
+      "comments": "12",
+      "caption": "Polka dots and hand-painted floral motifs on dark red french tips for a playful yet premium vibe. 💅✨"
+    }
+  ]
+}

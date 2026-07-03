@@ -1,0 +1,6 @@
+{
+  "name": "The Glambar",
+  "description": "Premium Nail Art, Extensions, and Premium Nail Products studio in Rajkot, Gujarat. Offering custom sculpted gel extensions, intricate hand-painted nail art, and quality salon supplies from Shills, Emigel, Venalisa, and Recolte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
