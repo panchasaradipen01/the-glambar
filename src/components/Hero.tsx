@@ -20,10 +20,10 @@ export default function Hero({ onScrollToSection }: HeroProps) {
 
   return (
     <section id="home" className="relative w-full min-h-screen flex items-center justify-center overflow-hidden pt-28 pb-12">
-      
+
       {/* 1. Large background typography floating elegantly (from Nailsy reference) */}
       <div className="absolute inset-0 z-0 select-none pointer-events-none overflow-hidden">
-        <motion.div 
+        <motion.div
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
@@ -31,7 +31,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
         >
           Glam
         </motion.div>
-        <motion.div 
+        <motion.div
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.1 }}
@@ -57,7 +57,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
               ease: 'easeInOut',
               delay: bubble.delay,
             }}
-            style={{ 
+            style={{
               filter: 'blur(50px)',
               bottom: bubble.bottom,
               right: bubble.right
@@ -70,7 +70,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
       {/* 3. Main Split Content Grid */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Text / Copy column */}
           <div className="lg:col-span-6 flex flex-col justify-center text-left">
             {/* Accent Label */}
@@ -93,8 +93,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
               transition={{ duration: 0.4, delay: 0.05, ease: 'easeOut' }}
               className="text-5xl sm:text-6xl lg:text-[76px] leading-[0.95] font-serif tracking-tight text-neutral-900 dark:text-white mb-6"
             >
-              Nails <br />
-              <span className="italic font-light text-luxury-gradient">&amp; {config.business.brandName}</span>
+              <span className="italic font-light text-luxury-gradient">{config.business.brandName}</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -142,7 +141,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
           </div>
 
           {/* Right Visual 3D Illustration Column */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.1 }}
